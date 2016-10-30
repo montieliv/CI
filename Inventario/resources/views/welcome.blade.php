@@ -1,45 +1,25 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Laravel</title>
+@extends('main.index')
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+@section('title', 'PGPB CI')
 
-        <style>
-            html, body {
-                height: 100%;
-            }
+@section('content')
 
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
-
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 96px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
-            </div>
+    <div class="row">
+            <div class="col-xs-6 col-md-2"><img src="images/logoPemex.png" alt=""></div>
+        
+        <div class="col-xs-6 col-md-8"> <h2 class="text-center">DEPARTAMENTO CONTRAINCENDIO PAREDON</h2>
+            <h3 class="text-muted text-center">INVENTARIO CASETA DE MANTENIMIENTO DE EXTINTORES</h3>
+            
         </div>
-    </body>
-</html>
+
+        <div class="col-xs-6 col-md-2"><img src="images/logoSSPA.png" alt=""></div>
+     </div>       
+    <div class="row">
+        
+        <hr class="featurette-divider">
+
+         <p class="text-center"><em>GRAFICAS</em></p>
+
+    </div>
+   
+@endsection
